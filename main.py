@@ -17,7 +17,7 @@ assert var_to_assert == "hello2"
 
 # normal code
 message = os.getenv('APPENV', 'Default Hello World!')
-message2 = 'Msg for you is ' + message
+message2 = 'Wersja: 1.5. Zmienna APPENV: ' + message
 
 class handler(BaseHTTPRequestHandler):
 
