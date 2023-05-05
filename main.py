@@ -12,8 +12,8 @@ hash = pbkdf2_hmac('sha256', password, b'D8VxSmTZt2E2YV454mkqAY5e', 100000)    #
 #hash = pbkdf2_hmac('sha256', password, salt, 100000)    # Compliant
 
 # bug2
-var_to_assert = "hello"
-assert var_to_assert == "hello"
+var_to_assert = "hello2"
+assert var_to_assert == "hello2"
 
 # normal code
 message = os.getenv('APPENV', 'Default Hello World!')
