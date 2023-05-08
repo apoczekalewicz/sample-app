@@ -1,4 +1,4 @@
-FROM ubi8
+FROM ubi8:latest
 RUN dnf -y install python3
 WORKDIR /
 ADD ./main.py .
