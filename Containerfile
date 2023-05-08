@@ -1,4 +1,4 @@
-FROM ubi9
+FROM ubi8
 RUN dnf -y install python3
 WORKDIR /
 ADD ./main.py .
