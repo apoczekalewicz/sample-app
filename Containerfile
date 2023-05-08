@@ -1,5 +1,6 @@
-FROM ubi8
-RUN dnf -y install python3
+#FROM ubi8
+FROM rhel8/python-39
+#RUN dnf -y install python3
 WORKDIR /
 ADD ./main.py .
 ADD ./robots.txt .
