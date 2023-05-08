@@ -1,5 +1,5 @@
-FROM ubi8
-RUN dnf -y install python3
+FROM ubi9
+RUN dnf -y install python3 && dnf -y remove dnf
 WORKDIR /
 ADD ./main.py .
 EXPOSE 8080
