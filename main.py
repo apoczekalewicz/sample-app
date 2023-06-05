@@ -13,7 +13,7 @@ hash = pbkdf2_hmac('sha256', password, b'D8VxSmTZt2E2YV454mkqAY5e', 100000)    #
 
 # normal code
 message = os.getenv('APPENV', 'Default Hello World!')
-message2 = 'Wersja: 1.9. Zmienna APPENV: ' + message
+message2 = 'Wersja: 1.10. Zmienna APPENV: ' + message
 
 class handler(BaseHTTPRequestHandler):
 
