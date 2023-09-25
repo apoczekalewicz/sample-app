@@ -18,7 +18,7 @@ hash = pbkdf2_hmac('sha256', password, b'D8VxSmTZt2E2YV454mkqAY5e', 100000)    #
 custom_message = 'Tu wpisz co chcesz :)))'
 
 app_env = os.getenv('APPENV', 'no APPENV in Container Environments!')
-message = 'Sample-app - Wersja: 1.47.<br>Zmienna APPENV: ' + app_env + "<br><br><font size="30">"
+message = 'Sample-app - Wersja: 1.47.<br>Zmienna APPENV: ' + app_env + "<br><br><font size=30>"
 
 
 class handler(BaseHTTPRequestHandler):
