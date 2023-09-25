@@ -15,7 +15,7 @@ hash = pbkdf2_hmac('sha256', password, b'D8VxSmTZt2E2YV454mkqAY5e', 100000)    #
 #hash = pbkdf2_hmac('sha256', password, salt, 100000)    # Compliant
 
 # normal code
-custom_message = 'Tu wpisz co chcesz :)))'
+custom_message = 'OpenShift !!! :)'
 
 app_env = os.getenv('APPENV', 'no APPENV in Container Environments!')
 message = 'Sample-app - Wersja: 1.47.<br>Zmienna APPENV: ' + app_env + "<br><br><b><font size=30>" + custom_message
