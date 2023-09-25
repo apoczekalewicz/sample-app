@@ -16,8 +16,10 @@ hash = pbkdf2_hmac('sha256', password, b'D8VxSmTZt2E2YV454mkqAY5e', 100000)    #
 
 # normal code
 custom_message = 'Tu wpisz co chcesz :))'
-message = os.getenv('APPENV', 'Default Hello World!')
-message2 = 'Sample-app - Wersja: 1.47.<br><br>Zmienna APPENV: ' + message + custom_message
+
+app_env = os.getenv('APPENV', 'Default Hello World!')
+message = 'Sample-app - Wersja: 1.47.<br>Zmienna APPENV: ' + app_env + "<br>" + custom_message
+
 
 class handler(BaseHTTPRequestHandler):
 
@@ -26,7 +28,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type','text/html')
         self.end_headers()
 
-        self.wfile.write(bytes(message2, "utf8"))
+        self.wfile.write(bytes(message, "utf8"))
 
 print("I will show you message:", message)
 
