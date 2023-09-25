@@ -15,10 +15,10 @@ hash = pbkdf2_hmac('sha256', password, b'D8VxSmTZt2E2YV454mkqAY5e', 100000)    #
 #hash = pbkdf2_hmac('sha256', password, salt, 100000)    # Compliant
 
 # normal code
-custom_message = 'Tu wpisz co chcesz :))'
+custom_message = 'Tu wpisz co chcesz :)))'
 
-app_env = os.getenv('APPENV', 'Default Hello World!')
-message = 'Sample-app - Wersja: 1.47.<br>Zmienna APPENV: ' + app_env + "<br>" + custom_message
+app_env = os.getenv('APPENV', 'no APPENV in Container Environments!')
+message = 'Sample-app - Wersja: 1.47.<br><br>Zmienna APPENV: ' + app_env + "<br><br>" + custom_message
 
 
 class handler(BaseHTTPRequestHandler):
