@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
-# DO EDYCJI LINIA: 20 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Wpisz co chcesz - ale bez brzydkich!! :)
-# POTEM: COMMIT I Synch do Gita! :)
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# DO EDYCJI LINIA: 21 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Wpisz co chcesz - ale bez brzydkich!! :)
+# POTEM: COMMIT I Sync do Gita! :)
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 import os
 import crypt
